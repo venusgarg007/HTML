@@ -1,0 +1,93 @@
+body
+{
+	margin: 0;
+	width: 960px;
+}
+
+.head
+{
+	height:100px;
+	margin: 0;
+	background: url(../img/csgo-background.png) no-repeat;
+	background-position: 270px;
+}
+
+.head a
+{
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.head img
+{
+	width: 126px;
+	height: 100px;
+}
+
+.navigation
+{
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.navigation a
+{
+	color: green;
+	text-decoration: none;
+}
+
+.navigation a:hover
+{
+	color:blue;
+	text-decoration: underline;
+}
+
+.navigation li
+{
+	display: inline;
+	margin: 10px;
+	font-size: 20px;
+}
+
+.navigation ul
+{
+	margin-top: 60px;
+	margin-bottom: 0;
+}
+
+.hero
+{
+	height: 300px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.csgo_logo
+{
+	margin-top: -4px;
+	margin-bottom: 0;
+	height: 300px;
+	width: 100%;
+}
+
+.threecol
+{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.awp, .ak47, .m4a4, .deagle, .tec9, .fiveseven
+{
+	width: 300px;
+}
+
+.awp img, .ak47 img, .m4a4 img, .deagle img, .tec9 img, .fiveseven img
+{
+	height: 100px;
+	width: 300px;
+}
+
+.footerSection
+{
+	background: cyan;
+}
