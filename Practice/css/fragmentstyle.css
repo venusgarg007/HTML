@@ -1,0 +1,73 @@
+body
+{
+	width: 500px;
+	margin: 20px auto;
+	font-family: sans-serif;
+}
+
+h2
+{
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 39px;
+	line-height: 43px;
+}
+
+.post
+{
+	background-color: #999;
+	color: #f3f3f3;
+	padding: 2px;
+	float: left;
+}
+
+a
+{
+	text-decoration: none;
+	color: #666;
+}
+
+.meta a, a
+{
+	font-style: italic;
+	font-size: 14px;
+}
+
+.meta li
+{
+	display: inline;
+}
+
+.meta li:after
+{
+	content: '\\';
+	color: #999;
+	padding: 0 2px;
+}
+
+.meta
+{
+	padding-left: 0;
+}
+
+.meta li:last-child:after
+{
+	content: none;
+}
+
+img
+{
+	float: left;
+	margin-right: 30px;
+}
+
+.content
+{
+	float: right;
+	width: 370px;
+}
+
+.body
+{
+	clear: both;
+}
